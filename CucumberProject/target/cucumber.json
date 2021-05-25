@@ -1,0 +1,55 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "login validation with valid data",
+        "description": "",
+        "id": "mercury-tours-login-validation;login-validation-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "initialize browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user login",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "successful login operation",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mercury Tours login validation",
+    "description": "",
+    "id": "mercury-tours-login-validation",
+    "keyword": "Feature",
+    "uri": "MercuryLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@UATTesting"
+      }
+    ]
+  }
+]

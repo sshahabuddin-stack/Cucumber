@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-10T17:11:26Z" name="Suite" finished-at="2020-03-10T17:11:26Z" duration-ms="583">
+    <groups>
+    </groups>
+    <test started-at="2020-03-10T17:11:26Z" name="Test" finished-at="2020-03-10T17:11:26Z" duration-ms="583">
+      <class name="com.TestRunner.TestRunner">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestRunner.TestRunner@1198b989]" started-at="2020-03-10T22:41:26Z" name="setUp" finished-at="2020-03-10T22:41:26Z" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@1198b989]" started-at="2020-03-10T22:41:26Z" name="feature" data-provider="features" finished-at="2020-03-10T22:41:26Z" duration-ms="54" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mercury Tours login validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.TestRunner@1198b989]" started-at="2020-03-10T22:41:26Z" name="tearDownClass" finished-at="2020-03-10T22:41:26Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.TestRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
